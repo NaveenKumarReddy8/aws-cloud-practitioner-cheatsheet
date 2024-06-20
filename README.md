@@ -263,14 +263,14 @@ ssh -i ec2key.pem ec2-user@54.84.219.178
         * **Not suitable for critical jobs or databases**
 * Dedicated Hosts: Book an entire physical server, control instance placement.
     * A physical server with EC2 instance capacity fully dedicated to your use.
-    * Allows you address **Compliance requirments** and use your existing server bound software licenses
+    * Allows you to address **Compliance requirements** and use your existing server bound software licenses
     * Purchasing Options:
         * On-Demand: pay per second for active Dedicated host
         * Reserved: 1 or 3 years (No upfront, partial upfront, all upfront)
     * The most expensive option
     * Useful for software that have complicated licensing model (BYOL- Bring your own license)
 
-#### Shared Responsibiliy Model for EC2:
+#### Shared Responsibility Model for EC2:
 
 * AWS:
     * Infrastructure (Global network security)
@@ -280,6 +280,6 @@ ssh -i ec2key.pem ec2-user@54.84.219.178
 * User:
     * Security Groups rules
     * Operating system patches and updates
-    * Software and utilites insalled on the EC2 instance
+    * Software and utilities installed on the EC2 instance
     * IAM Roles assigned to EC2 & IAM User access management
     * Data security on your instance
