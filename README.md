@@ -40,7 +40,7 @@ Ex:
 * **Action**: list of actions this policy allows or denies.
 * **Resources**: list of resources to which the actions applies to. **'*'** refers to all resources.
 
-_Tags_ are optional and are present for allmost all services in AWS. They are Key-Value pairs.
+_Tags_ are optional and are present for almost all services in AWS. They are Key-Value pairs.
 
 ### Multi-Factor Authentication (MFA):
 
@@ -86,12 +86,12 @@ We can create budget which notifies whenever the budget is breached. Some templa
 * It mainly consists in the capability of:
   * Renting Virtual machines (EC2)
   * Storing data on virtual drives (EBS)
-  * Distributing load accross machines (ELB)
+  * Distributing load across machines (ELB)
   * Scaling the services using an auto-scaling group (ASG)
 
 ### EC2 Sizing & Configuration options
 
-* Operating System (OS): Linux, Windows or Mac OS
+* Operating System (OS): Linux, Windows or macOS
 * How much compute power & cores (CPU)
 * How much RAM
 * How much Storage space:
