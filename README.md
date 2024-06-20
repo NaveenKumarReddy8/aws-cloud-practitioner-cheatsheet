@@ -283,3 +283,85 @@ ssh -i ec2key.pem ec2-user@54.84.219.178
     * Software and utilities installed on the EC2 instance
     * IAM Roles assigned to EC2 & IAM User access management
     * Data security on your instance
+
+## Elastic Block Volume (EBS)
+* An EBS(Elastic Block Volume) is a network drive you can attach to your instances while they run
+* It allows your instances to persist data, even after their termination
+* They are bound to a specific availability zone.
+* It can be detached from an EC2 instance and attached to another one quickly
+* It uses network to communicate the instance, which means there might be a bit of latency.
+* To move a volume across, you first need to snapshot it.
+
+**Delete on Termination** controls the EBS behaviour when an EC2 instance terminates
+* By default, the root EBS volume is deleted (attribute enabled)
+* By default, any other attached EBS volume is not deleted (attribute disabled)
+
+
+### EBS Snapshots
+* Make a backup (snapshot) of your EBS volume at a point in time
+* Not necessary to detach volume to do snapshot, but recommended
+* Can copy snapshots across AZ or region
+
+**EBS Snapshot Archive**
+
+* Move a Snapshot to an **Archive Tier** that is 75% cheaper.
+* Takes within 24 to 72 hours for restoring the archive.
+
+**Recycle Bin for EBS Snapshots**
+
+* Setup rules to retain deleted snapshots, so you can recover them after an accidental deletion.
+* Specify retention (from 1 day to 1 year)
+
+### Amazon Machine Image (AMI)
+* AMI are a **customization** of an EC2 instance.
+  * You add your own software, configuration, operating system, monitoring etc...
+  * Faster boot / configuration time because all your software is pre-packaged.
+* AMI are built for a **specific region** (and can be copied across regions)
+
+We can launch EC2 Instances from:
+* A public AMI: AWS Provided
+* Your own AMI: You make and maintain them yourself
+* An AWS Marketplace AMI: an AMI someone else made (and potentially sells)
+
+### EC2 Image builder
+* Used to automate the craetion of VM or container images.
+* Automates the creation, maintain, validate and test EC2 AMIs
+* Can be run on a schedule (weekly, whenever packages are updated, etc...)
+* Free Service (only pay for the underlying resources)
+
+### EC2 Instance Store
+* EBS volumes are network drives with good but **Limited** performance.
+* If you need a high performance hardware disk, use EC2 Instance Store.
+* Better I/O performance
+* EC2 Instance Store lose their storage if they're stopped (Ephemeral)
+* Good for buffer/cache/scratch data/temporary content
+* Risk of data loss if hardware fails
+* Backups and replication are your responsibility
+
+
+### Elastic File System (EFS)
+* Managed 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
