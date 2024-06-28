@@ -337,8 +337,6 @@ We can launch EC2 Instances from:
 * Good for buffer/cache/scratch data/temporary content
 * Risk of data loss if hardware fails
 * Backups and replication are your responsibility
-
-
 1. A company wants to rightsize its EC2 instances, which configuration change will meet this requirement will LEAST operational overhead?
 A. Change the size and type of the EC2 instances based on utilization.
 2. A company plans to host its data warehouse application on AWS. The company has a machine learning (ML) model and wants to use that model within its data warehouse for data forecasting. Which AWS service will meet these requirements?
@@ -395,27 +393,18 @@ A. Operational excellence
 A. AWS WAF
 21. A company wants to automatically set up and govern a multi-account AWS environment. Which AWS Service provides the functionality?
 A. AWS Control tower
-22. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+22. A company wants to move its IOS application development and build activities to AWS. Which AWS Service or resources should the company use for these activities?
+A. AWS Amplify
+23. A company needs to apply security rules to a subnet for EC2 instances. Which AWS service or feature provide this functionality?
+A. Network ACLs
+24. A compnay is plannig to migrate to the AWs. The compnay wants to identify measurable business outcoes that will explain the value of the company's decision to migrate. Which phase of the cloud transformation journey it is?
+A. Envision
+25. A company migrated its core application onto multiple workloads in the AWs. The company wants to improve the applications reliability. Which cloud design principle should the company implement to achieve this goal?
+A. Decouple the components
+26. Which of the following is a benefit that AWS Professional services provides?
+A. Advisory solutions for AWS adoption
+27. What is the least expensive AWS support plan that provides the full set of AWS trusted advisor best practice checks for cost optimization?
+A. AWS Business support
 
 
 
