@@ -339,8 +339,77 @@ We can launch EC2 Instances from:
 * Backups and replication are your responsibility
 
 
-### Elastic File System (EFS)
-* Managed 
+1. A company wants to rightsize its EC2 instances, which configuration change will meet this requirement will LEAST operational overhead?
+A. Change the size and type of the EC2 instances based on utilization.
+2. A company plans to host its data warehouse application on AWS. The company has a machine learning (ML) model and wants to use that model within its data warehouse for data forecasting. Which AWS service will meet these requirements?
+A. Amazon Redshift ML
+3. Which option is a pillar of thw AWS Wells architectured Framework?
+   * Cost optimization
+   * Operational excellence
+   * Reliability
+   * Performance efficiency
+   * Security
+   * Sustainability
+4. A Company wants to migrate its application to the AWS Cloud. The company plans to identify and prioritize any business transformation oppurtunities and evaluate its AWS Cloud readiness . Which AWS service or tool should the company use to meet these requirements?
+A. Cloud Adoption Framework (CAF)
+5. A company is launching a critical business application in an AWS region, how can the company increase resilience for the application?
+A. Deploy the application by using multiple AZs.
+6. Which options are AWS CAF perspectives? (Select 2)
+   * Business
+   * People
+   * Governance
+   * Platform
+   * Security
+   * Operations
+7. A company is defining its AWS multi-account strategy The company needs to control access to AWS Services and needs to consolidate billing across accounts. Which AWS service should the company use to meet these requirements?
+A. AWS Organizations
+8. Which options are common stakeholders for the AWS CAF platform perspective (Select 2)
+   * CTO
+   * Technology leaders
+   * Architects
+   * Engineers
+9. Which AWS Service is deployed to VPCs and provide protection from common network threats?
+A. AWS Network Firewall
+10. A company has an environment that includes EC2 instances, Lightsail and on-prem servers. The company want so automate the security updates for its OS and applications. Which solution will meet these requirements with LEAST operational effort?
+A. Use the AWS Systems manager Patch Manager capability
+11. A company wants to query its server logs to gain insights about its customers experiences. Which AWS service will store this data **most cost efficiently**?
+A. Amazon S3
+12. A company is migration to AWS cloud and wants to optimize the use of its current software licenses. Which AWS services, features or purchasing options can teh company use to meet these requirements (Select 2)
+A. Amazon EC2 Dedicated hosts, AWS License Manager
+13. A company wants guidance to optimize the cost and performance of its current AWS environment which AWS service or tool should the company use to identify areas of for optimization?
+A. AWS Trusted Advisor
+14. Which AWS solution provides the ability for a company to run AWS services in the company's on-premises data center?
+A. AWS Outposts
+15. A company is using AWS Organizations to configure AWS accounts. Which design principle is a best practice for the company to implement?
+A. Organize accounts based on security and operational needs
+16. Which task can only an AWS account root user perform?
+A. Changing the AWS Support plan
+17. A company wants to use guidelines from the AWS Well architected framework to limit human error and facilitate responses to events. Which of the following is a well-architected design principle that will meet these requirements?
+A. Perform Operations as code
+18. A company encourages its teams to test failure scenarios regularly and to validate the understanding of impact of potential failures. Which pillar of AWS well architected framework does this philosophy represent?
+A. Operational excellence
+19. Which of the following are general AWS cloud design principles described in teh AWS well architected framework (Select 2)
+    * Test systems at production scale
+    * Drive architecture design based on data collected about the workload behaviour and requirements.
+20. A company wants to use a managed security service for protection frm SQL injection attacks. The service also must provide detailed logging information about access to the company's ecommerce application. Which AWS service will meet these requirements?
+A. AWS WAF
+21. A company wants to automatically set up and govern a multi-account AWS environment. Which AWS Service provides the functionality?
+A. AWS Control tower
+22. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
